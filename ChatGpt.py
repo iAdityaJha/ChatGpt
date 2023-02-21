@@ -8,7 +8,7 @@ openai.api_key = "your_API_key"
 # Set up the model and prompt
 while True:
     model_engine = "text-davinci-003"
-    prompt = input('Enter New Swaal/Question :')
+    prompt = input('Enter New Question :')
     if 'exit' in prompt or 'quit' in prompt:
         break
     # Generate a response
